@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <title>unimaru-portfolio</title>
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link href="https://fonts.googleapis.com/css?family=Niconne|Sawarabi+Mincho&amp;subset=latin-ext" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Sawarabi+Gothic|Sawarabi+Mincho&amp;subset=japanese,latin-ext" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
@@ -13,7 +13,7 @@
     <ul>
       <li><a href="#about">about</a></li>
       <li><a href="#skill">skill</a></li>
-      <li><a href="#product">product</a></li>
+      <li><a href="#product">pictures</a></li>
       <li><a href="#contact">contact</a></li>
       <li><a href="https://twitter.com/uni_maru_13"><i class="fab fa-twitter"></i>Twitter</a></li>
       <li><a href="https://www.instagram.com/uni_maru_13/"><i class="fab fa-instagram"></i>Instagram</a></li>
@@ -27,28 +27,31 @@
   </header>
 
   <main>
+    <div class="cover-about cover">
     <section id="about" class="site-width">
       <h1 class="title">about</h1>
       <p>
         山形県出身。20歳。好きな食べ物はオムライス。<br />
         理科の先生になりたかったが、行きたい大学に入るには学力が足りず断念。<br />
         クリエイターを目指し東京の大学へ進学後、中退。<br />
-        子供を産んでシングルマザーになりました。ﾒｯﾁｬｶﾜｲｲ。<br />
+        1児のシングルマザーです。ｺﾄﾞﾓﾒｯﾁｬｶﾜｲｲ。<br />
         <br/>
-        在学中にWebデザイン、プログラミングに出会いました。<br/>
+        在学中にWebデザイン、プログラミングに出会った。<br/>
         現在は仕事にするために日々勉強中(｀・ω・´)<br />
         <br />
-        小学生から高校卒業までバレー部に在籍。 163cmのスパイカーです。<br />    
+        小学生から高校卒業までバレー部に在籍。 163cmのスパイカー。<br />
+        大学ではイベントサークル、写真部、美術部、バレー部の幽霊。    
       </p>
     </section>
-
+    </div>
+    <div class="cover-skill cover">
     <section id="skill" class="site-width">
       <h1 class="title">skill</h1>
       <section class="panel">
         <h2>プログラミング</h2>
         <p>
           HTML,CSS,JavaScript,jQueryを勉強中です。このポートフォリオのようなサイト作成をしています。<br />
-          今年1月からウェブカツにて勉強をスタートしました。Twitter@uni_maru_13にて進捗報告をしています。
+          今年1月から本格的に独学で勉強をスタートしました。Twitter（<a href="https://twitter.com/uni_maru_13">@uni_maru_13</a>）にて進捗報告をしています。
         </p>
       </section>
       <section class="panel">
@@ -62,40 +65,70 @@
         <h2>イラスト・写真</h2>
         <p>
           地元の星空を撮りたいという夢から大学で写真部に入部し、カメラを購入しました。風景写真などを撮影しています。東北、東京を中心に各地で活動しています。<br />
-          機材はFUJIFILMのX-T1、XF35mmF1.4 Rです。
+          機材はFUJIFILMのX-T1、XF35mmF1.4 R、XF18-55mm F2.8-4 R LM OISです。
         </p>
       </section>
     </section>
-
+    </div>
+    <div class="cover-pic cover">
     <section id="product" class="site-width">
-      <h1 class="title">product</h1>
-      <div class="pic">
+      <h1 class="title">pictures</h1>
+      <!-- もともとproductだった -->
+
+      <figure class="pic">
         <img src="img/pic1.png">
-        <!-- <p>銀杏（山形.2018）</p> --> 
-      </div>
+        <figcaption>
+          <h3>キ　イ　ロ</h3>
+          <p>Yamagata -2018<br />
+          FUJIFILM X-T1 XF16mm F1.4R WR</p><i class="ion-ios-arrow-right"></i>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
 
-      <div class="pic">
+      <figure class="pic">
         <img src="img/pic2.png">
-        <!-- <p>暮らし（東京.2017）</p> -->
-      </div>
+        <figcaption>
+          <h3>暮らし</h3>
+          <p>Tokyo -2017<br />
+          FUJIFILM X-T1 XF18-55mm F2.8-4 R LM OIS</p><i class="ion-ios-arrow-right"></i>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
 
-      <div class="pic">
+      <figure class="pic">
         <img src="img/pic3.png">
-        <!-- <p>下弦の月（東京.2017）</p> -->
-      </div>
+        <figcaption>
+          <h3>下弦の月</h3>
+          <p>Tokyo -2017<br />
+          FUJIFILM X-T1 XF18-55mm F2.8-4 R LM OIS</p><i class="ion-ios-arrow-right"></i>
+        </figcaption>
+        <a href="#"></a>
+      </figure>
     </section>
+    </div>
 
+    <div class="cover-contact">
     <section id="contact" class="site-width contact-width">
       <h1 class="title">contact</h1>
       <form>
-
-          <input type="text" name="name" placeholder="name">
-          <input type="text" name="email" placeholder="address">
-          <textarea cols="100" rows="10" placeholder="comment"></textarea>
-          <input type="submit" value="送信">
+        <p>TwitterのDMは常時解放しています。お気軽にご連絡ください。</p>
+        <a href="https://twitter.com/uni_maru_13">DMはこちらまで</a>
+      </form>
+      <form>
+        <label>お名前
+          <input type="text" name="name">
+        </label>
+        <label>メールアドレス
+          <input type="text" name="email">
+        </label>
+        <label>内容
+          <textarea cols="100" rows="10"></textarea>
+        </label>
+        <input type="submit" value="送信">
 
       </form>
     </section>
+    </div>
   </main>
 
   <footer>
